@@ -19,3 +19,22 @@
 .trigger:hover {
     color: #1890ff;
 }
+
+.breadcrumb {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    padding-right: 30px;
+    .swap {
+        position: absolute;
+        right: 0;
+        top: -5px;
+        i {
+            margin-left: 5px;
+            &:hover {
+                color: blue;
+                cursor: pointer;
+            }
+        }
+    }
+}
