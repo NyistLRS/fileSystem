@@ -30,7 +30,7 @@ export default class AppMain extends React.Component {
                         <Icon type="appstore"></Icon>
                     </div>
                 </div>
-                <div style={{ minHeight: '100%' }}>
+                <div style={{ height: 'calc(100% - 30px)',backgroundColor: '#fff' }}>
                     <RouterView />
                 </div>
             </Content>
